@@ -1,0 +1,35 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #e0ffff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+
+.gallery {
+    display: flex;
+    max-width: 1440px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+
+
+.gallery-link:hover .gallery-image {
+    transform: scale(1.05);
+    cursor: pointer;
+}

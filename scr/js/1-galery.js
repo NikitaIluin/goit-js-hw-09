@@ -3,6 +3,7 @@ import SimpleLightbox from 'simplelightbox';
 // Додатковий імпорт стилів
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
+
 const images = [
   {
     preview:
@@ -17,6 +18,8 @@ const images = [
     original:
       'https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_1280.jpg',
     description: 'Container Haulage Freight',
+  
+
   },
   {
     preview:
@@ -25,6 +28,7 @@ const images = [
       'https://cdn.pixabay.com/photo/2019/05/16/09/47/beach-4206785_1280.jpg',
     description: 'Aerial Beach View',
   },
+  
   {
     preview:
       'https://cdn.pixabay.com/photo/2016/11/18/16/19/flowers-1835619__340.jpg',
@@ -86,9 +90,11 @@ function galleryAllItems(arr) {
     </li>`
     )
     .join('');
+  KorsarIsAShit
 }
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
+  
 });
